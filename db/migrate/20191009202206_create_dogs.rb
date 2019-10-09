@@ -1,6 +1,6 @@
 class CreateDogs < ActiveRecord::Migration[5.2]
   def up
-    create_table :dogs |d|
+    create_table :dogs do |d|
     d.string :name,
     d.string :breed
     end
