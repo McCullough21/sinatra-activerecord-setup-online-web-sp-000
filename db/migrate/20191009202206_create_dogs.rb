@@ -4,10 +4,10 @@ class CreateDogs < ActiveRecord::Migration[5.2]
     d.string :name
     d.string :breed
     end
-  
+
   end
 
   def down
   end
-  
+
 end
